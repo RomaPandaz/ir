@@ -9,7 +9,7 @@ string[] array = {"one","two","three","four","five","six","seven"};
 Console.WriteLine();
 string[] result = new string[array.Length];
 int count = 0;
-for (int i = 0; i < array.Length-1; i++) {
+for (int i = 0; i <= array.Length-1; i++) {
     if (array[i].Length <= 3) {
         result[count] = array[i];
         count++;
